@@ -3,4 +3,4 @@ ifconfig eth0 10.0.1.1/24 up
 ifconfig eth1 10.0.0.1/30 up
 
 #Configuração de roteamento
-rota add padrão gw 10.0.0.2
+rota add padrão default 10.0.0.2
