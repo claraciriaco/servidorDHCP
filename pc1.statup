@@ -1,0 +1,6 @@
+#Confidgurações de IP
+ifconfig eth0 10.0.1.26/24
+
+#Configuração de roteamento
+route add default gw 10.0.1.1/24
+
